@@ -33,12 +33,11 @@ average_error_tv = array(0,c(num_scenarios,length(l_grid),length(sigma_grid)))
 
 
 
-iter = 1
-ind_sigma = 1
+
+
 lambda_grid_tv = 10^seq(-1,3,length= 20)
 lambda_grid = seq(5,30,length=15)
-scenario = 1
-ind_l = 1 
+
 for(scenario in 1:num_scenarios)
 {
   print("scenario")
