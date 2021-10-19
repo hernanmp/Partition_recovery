@@ -1,6 +1,5 @@
 
 rm(list = ls())
-setwd("/Users/oscar/Desktop/2D project/code/Github")
 source("utils.R")
 library(igraph)
 library(Rcpp)
