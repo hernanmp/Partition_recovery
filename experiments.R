@@ -93,7 +93,7 @@ for(scenario in 1:num_scenarios)
       average_error_tv[scenario,ind_l,ind_sigma] =  mean(error_tv[scenario,,ind_l,ind_sigma] )
       
      
-      print("original")
+      print("two-step estimator (DCART)")
       print(average_haussdorff_original[scenario,ind_l,ind_sigma] )
       print(average_error_original[scenario,ind_l,ind_sigma])
 
@@ -104,52 +104,6 @@ for(scenario in 1:num_scenarios)
     }
   }
 }
-
-
-# scenario =1
-# ind_sigma = 1
-# print("original")
-# print(average_haussdorff_original[scenario,ind_l,ind_sigma] )
-# print(sd(haussdorff_original[scenario,,ind_l,ind_sigma] ))
-# print(average_error_original[scenario,ind_l,ind_sigma])
-# print(sd(error_original[scenario,,ind_l,ind_sigma]))
-# 
-# 
-# print("tv")
-# print(average_haussdorff_tv[scenario,ind_l,ind_sigma] )
-# print(sd(haussdorff_tv[scenario,,ind_l,ind_sigma] ))
-# print(average_error_tv[scenario,ind_l,ind_sigma])
-# print(sd(error_tv[scenario,,ind_l,ind_sigma]))
-# 
-# 
-# ind_sigma = 2
-# print("original")
-# print(average_haussdorff_original[scenario,ind_l,ind_sigma] )
-# print(sd(haussdorff_original[scenario,,ind_l,ind_sigma] ))
-# print(average_error_original[scenario,ind_l,ind_sigma])
-# print(sd(error_original[scenario,,ind_l,ind_sigma]))
-# 
-# 
-# print("tv")
-# print(average_haussdorff_tv[scenario,ind_l,ind_sigma] )
-# print(sd(haussdorff_tv[scenario,,ind_l,ind_sigma] ))
-# print(average_error_tv[scenario,ind_l,ind_sigma])
-# print(sd(error_tv[scenario,,ind_l,ind_sigma]))
-# 
-# 
-# ind_sigma = 3
-# print("original")
-# print(average_haussdorff_original[scenario,ind_l,ind_sigma] )
-# print(sd(haussdorff_original[scenario,,ind_l,ind_sigma] ))
-# print(average_error_original[scenario,ind_l,ind_sigma])
-# print(sd(error_original[scenario,,ind_l,ind_sigma]))
-# 
-# 
-# print("tv")
-# print(average_haussdorff_tv[scenario,ind_l,ind_sigma] )
-# print(sd(haussdorff_tv[scenario,,ind_l,ind_sigma] ))
-# print(average_error_tv[scenario,ind_l,ind_sigma])
-# print(sd(error_tv[scenario,,ind_l,ind_sigma]))
 
 
 
